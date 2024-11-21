@@ -1,0 +1,256 @@
+body {
+    margin: 0 auto;
+    font-family: Verdana, serif;
+    background-color: #252525;
+}
+.my{
+    width: 100%;
+   height: 100%;
+   display: flex;
+  
+}
+.knopki{
+    margin-top: 2%;
+
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    
+}   
+.k1{
+    text-align: center;
+    line-height: 40px;
+    width: 15%;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 0px solid;
+    color: #000000;
+    transition: 0.2s;
+    background-color: #797979d0;
+    border: 2px solid rgba(0, 0, 0, 0.664);
+    font-size: 20px;
+}
+
+.k1:hover{
+    transform: scale(1,2);
+}
+.zastavka{
+    width: 100%;
+    height: 100%;
+}
+.zas{
+    width: 100%;
+    height: 100%;
+}
+.text1{
+    font-size: 50px;
+    text-align: center;
+    font-family: Comic Sans MS;
+    color: rgb(255, 255, 255);
+}
+
+.cof{
+    display: flex;
+    width: 30%;
+   height: 50%;
+
+   flex-direction: column;
+   float: left;
+  
+}
+.glavnau{
+    font-size: 15px;
+    text-align: left;
+    padding-left: 2%;
+    font-family: Comic Sans MS;
+    color: rgb(148, 111, 78); 
+    margin: 0% 0% -2% 3%;
+}
+.g2{
+    font-size: 36px;
+    margin: 0% 0% -1% 3%;
+    font-family: Comic Sans MS;
+    color:rgb(255, 255, 255);
+    text-align: left;
+    padding-left: 2%;
+}
+.g3{
+    font-size: 18px;
+    margin: 0% 0% 3% 3%;
+    font-family: Comic Sans MS;
+    color:rgb(255, 255, 255);
+    text-align: left;
+    padding-left: 2%;
+}
+span{
+    color: rgb(148, 111, 78); 
+}
+.g4{
+    font-size: 18px;
+    margin: 0% 0% 5% 3%;
+    font-family: Comic Sans MS;
+    color:rgb(255, 255, 255);
+    text-align: left;
+    padding-left: 2%;
+}
+.cof2{
+   
+    display: flex;
+  
+    width: 30%;
+   height: 50%; 
+}
+.cof3{
+    float: left;
+    width: 30%;
+   height: 50%;
+   display: flex;
+   
+}
+.r1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    
+}
+.glavnau2{
+    font-size: 15px;
+    text-align: left;
+    padding-left: 2%;
+    font-family: Comic Sans MS;
+    color: rgb(148, 111, 78); 
+    margin: 0% 0% -2% 3%;
+}
+.g5{
+    font-size: 30px;
+    margin: 0% 0% 1% 3%;
+    font-family: Comic Sans MS;
+    color:rgb(255, 255, 255);
+    text-align: left;
+    padding-left: 2%;
+   
+}
+.g6{
+    font-size: 18px;
+    margin: 0% 0% 5% 3%;
+    font-family: Comic Sans MS;
+    color:rgb(255, 255, 255);
+    text-align: left;
+    padding-left: 2%;
+}
+.kartinka1{
+    width: 13%;
+    margin-left: 5%;  
+    margin: 0% 0% 3% 3%;
+}
+
+.kartinka2{
+    width: 15%;
+    margin-left: 5%;  
+    margin: 0% 0% 1% 3%;
+}
+.g7{
+    font-size: 30px;
+    margin: 0% 0% 0% 3%;
+    font-family: Comic Sans MS;
+    color:rgb(255, 255, 255);
+    text-align: left;
+    padding-left: 2%;
+}
+.g8{
+    font-size: 18px;
+    margin: 0% 0% 5% 3%;
+    font-family: Comic Sans MS;
+    color:rgb(255, 255, 255);
+    text-align: left;
+    padding-left: 2%;
+}
+.glavnau3{
+    font-size: 15px;
+    text-align: left;
+    padding-left: 2%;
+    font-family: Comic Sans MS;
+    color: rgb(148, 111, 78); 
+    margin: 0% 0% -2% 3%;
+}
+.kartinka3{
+    width: 19%;
+    margin-left: 5%;  
+    margin: -1% 0% -2% 3%;
+}
+.g9{
+    font-size: 30px;
+    margin: 0% 0% 0% 3%;
+    font-family: Comic Sans MS;
+    color:rgb(255, 255, 255);
+    text-align: left;
+    padding-left: 2%;
+}
+.g10{
+    font-size: 18px;
+    margin: 0% 0% 0% 3%;
+    font-family: Comic Sans MS;
+    color:rgb(255, 255, 255);
+    text-align: left;
+    padding-left: 2%;
+}
+.kartinka4{
+    width: 19%;
+    margin-left: 5%;  
+    margin: 0% 0% -2% 3%;
+}
+.g11{
+    font-size: 30px;
+    margin: 0% 0% 0% 3%;
+    font-family: Comic Sans MS;
+    color:rgb(255, 255, 255);
+    text-align: left;
+    padding-left: 2%;
+}
+.g12{
+    font-size: 18px;
+    margin: 0% 0% 5% 3%;
+    font-family: Comic Sans MS;
+    color:rgb(255, 255, 255);
+    text-align: left;
+    padding-left: 2%;
+}
+
+.ad {
+    position: absolute;
+    top: 80%;
+    left: 25%;
+    width: 50%; 
+    height: 60%;
+    border: 1px solid #ccc; 
+    margin: 20px auto; 
+    background-color: #b6a793; 
+    padding: 10px; 
+  text-align: center;
+
+  }
+  
+  .ad img {
+    width: 100%; 
+    height: auto; 
+    font-size: 500%;
+  }
+
+  #sp{
+    color: rgb(230, 35, 35); 
+  }
+
+  .a1{
+    cursor: pointer;
+    width: 15vw;
+    height: 10vh;
+    text-decoration: none;
+    color: white;
+    background-color:red ;
+    font-size: 300%;
+  }
+
+  p{
+    font-size: 200%;
+  }
