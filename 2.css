@@ -1,0 +1,209 @@
+body {
+    margin: 0 auto;
+    font-family: Verdana, serif;
+    background-color: #b6a793;
+}
+.knopki{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+}   
+.k1{
+    text-align: center;
+    line-height: 40px;
+    width: 15%;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 0px solid;
+    color: #000000;
+    transition: 0.2s;
+    background-color: #797979d0;
+    border: 2px solid rgba(0, 0, 0, 0.664);
+    font-size: 20px;
+}
+.k1:hover{
+    transform: scale(1,2);
+}
+.my{
+margin-top: 10%;
+   display: flex;
+   justify-content: center;
+}
+
+
+.rodmenu{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content:space-evenly;
+    margin-bottom: 2%;
+    flex-wrap: wrap;
+    
+}
+
+.kontur{
+    width: 400px;
+    height: 500px;
+    border: 2px solid rgba(0, 0, 0, 0.664);
+    border-radius: 13px 13px 0px 0px;
+}
+.lk{
+    width: 100%;
+    height: 100%;
+}
+.kybik{
+    width: 100%;
+    height: 70%;
+    background-color: #252525;
+    border-radius: 13px 14px 0px 0px;
+}
+.z2{
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, serif;
+}
+.z3{
+    
+     display: flex;
+     justify-content: center;
+     font-family: Verdana, serif;
+     
+ }
+ .z4{
+    
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, serif;
+    
+}
+ .rodmenu2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 5%;
+    flex-wrap: wrap;
+  
+}
+
+.kontur2{
+    width: 400px;
+    height: 500px;
+    border: 2px solid rgba(0, 0, 0, 0.664);
+    border-radius: 13px 13px 0px 0px;
+}
+.lk{
+    width: 100%;
+    height: 100%;
+}
+.kybik2{
+    width: 100%;
+    height: 70%;
+    background-color: #252525;
+    border-radius: 13px 14px 0px 0px;
+}
+.rodmenu3{
+   
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content:space-evenly;
+margin-top: 5%;
+    flex-wrap: wrap;
+}
+
+.kontur3{
+    width: 400px;
+    height: 500px;
+    border: 2px solid rgba(0, 0, 0, 0.664);
+    border-radius: 13px 13px 0px 0px;
+}
+.lk{
+    width: 100%;
+    height: 100%;
+}
+.kybik3{
+    width: 100%;
+    height: 70%;
+    background-color: #252525;
+    border-radius: 13px 14px 0px 0px;
+}
+
+.rodmenu4{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content:space-evenly;
+  margin-top: 3%;
+  flex-wrap: wrap;
+}
+
+.kontur4{
+    width: 400px;
+    height: 500px;
+    border: 2px solid rgba(0, 0, 0, 0.664);
+    border-radius: 13px 13px 0px 0px;
+}
+.lk{
+    width: 100%;
+    height: 100%;
+}
+.kybik4{
+    width: 100%;
+    height: 70%;
+    background-color: #252525;
+    border-radius: 13px 14px 0px 0px;
+}
+.cf{
+    position: relative;
+    top:-20px;
+    left:80%;
+    z-index: 100;
+}
+.cf2{
+    position: relative;
+    top:-20px;
+    left:80%;
+    z-index: 100;
+}
+.rodmenu5{
+width: 100%;
+height: 50%;
+display: flex;
+justify-content: space-evenly;
+margin-top: 3%;
+flex-wrap: wrap;
+
+}
+.kontur5{
+    width: 400px;
+    height: 500px;
+    border: 2px solid rgba(0, 0, 0, 0.664);
+    border-radius: 13px 13px 0px 0px;
+   
+}
+.lk5{
+    width: 100%;
+    height: 100%;
+}
+.kybik5{
+    width: 100%;
+    height: 70%;
+    background-color: #252525;
+    border-radius: 13px 14px 0px 0px;
+}
+.biggest {
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+}
+.all{
+    width: 100%;
+    height: 100%;
+}
+@media(max-width:1000px){
+    .rodmenu3{
+        margin-top: 3%;
+    }
+}

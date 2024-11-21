@@ -1,0 +1,89 @@
+div{
+    margin: 0 auto;
+    border-radius: 160px 0px  160px 0px;
+}
+.a1{
+    width: 600px;
+    height: 580px;
+    background-color: #252525;
+    margin: 0 auto;
+    font-size: 200%;
+    padding: 2%;
+    color: rgb(209, 247, 209);
+}
+
+h3{
+    text-align: center;
+    color: rgb(148, 111, 78);
+}
+button{
+    font-size: 80%;  
+    width: 260px;
+    background-color: #b6a793;
+    border-radius: 8px;
+    color: #252525;
+}
+.z1{
+    width: 320px;
+    height: 30px;
+    border-radius: 8px;
+    background-color:Honeydew;
+}
+.z2{
+    width: 320px;
+    height: 30px;
+    border-radius: 8px;
+    background-color:Honeydew;
+}
+.z3{
+    width: 20px;
+    height: 2px;
+    border-radius: 8px;
+    background-color:Honeydew;
+}
+body {
+    margin: 0 auto;
+    font-family: Verdana, serif;
+    background-color: #b6a793;
+}
+.knopki{
+    margin-top: 2%;
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    
+}   
+.k1{
+    text-align: center;
+    line-height: 40px;
+    width: 15%;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 0px solid;
+    color: #000000;
+    transition: 0.2s;
+    background-color: #797979d0;
+    border: 2px solid rgba(0, 0, 0, 0.664);
+    font-size: 20px;
+}
+.k1:hover{
+    transform: scale(1,2);
+}
+.rod{
+    width: 100%;
+    height: 23%;
+    display: flex;
+    margin-top: 0%;
+
+}
+h1{
+    margin-top: 10%;
+    display: flex;
+    margin: 7% auto 0 auto;
+    font-family: Verdana, serif;
+    text-align: center;
+    padding-left: 5%;
+    color: rgb(0, 0, 0);
+}

@@ -1,0 +1,111 @@
+body {
+    margin: 0 auto;
+    font-family: Verdana, serif;
+    background-color: #252525;
+}
+.knopki{
+    margin-top: 2%;
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+}   
+.k1{
+    text-align: center;
+    line-height: 40px;
+    width: 15%;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 0px solid;
+    color: #000000;
+    transition: 0.2s;
+    background-color: #797979d0;
+    border: 2px solid rgba(0, 0, 0, 0.664);
+    font-size: 20px;
+}
+
+.k1:hover{
+    transform: scale(1,2);
+}
+.rod1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+    justify-content: center;
+   
+}
+h1{
+    margin-top: 10%;
+    display: flex;
+    margin: 20% 0% 3% 2%;
+    font-family: Verdana, serif;
+    text-align: left;
+    padding-left: 5%;
+    color: rgb(148, 111, 78);
+}
+.v1{
+    width: 50%;
+    height: 100%;
+}
+.v2{
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+}
+.p1{
+    font-size: 18px;
+    margin: 0% 0% 3% 2%;
+    font-family: Comic Sans MS;
+    color:rgb(255, 255, 255);
+    text-align: left;
+    padding-left: 5%;
+}
+.p2{
+    font-size: 18px;
+    margin: 0% 0% 3% 2%;
+    font-family: Comic Sans MS;
+    color:rgb(255, 255, 255);
+    text-align: left;
+    padding-left: 5%;
+}
+.p3{
+    font-size: 18px;
+    margin: 0% 0% 3% 2%;
+    font-family: Comic Sans MS;
+    color:rgb(255, 255, 255);
+    text-align: left;
+    padding-left: 5%;
+}
+span{
+    color: rgb(148, 111, 78); 
+}
+img{
+    width: 5%;
+    height: 5%;
+    padding-left: 5%;
+    margin: 0% 0% 3% 2%;
+}
+.h1{
+    margin-top: 10%;
+    display: flex;
+    margin: 0% 0% 3% 2%;
+    font-family: Verdana, serif;
+    text-align: left;
+    padding-left: 5%;
+    color: rgb(148, 111, 78);
+}
+.v2{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+  
+    height: 400px;
+    font-size: 18px;
+    margin:10% 0% 3% 2%;
+    font-family: Comic Sans MS;
+    text-align: left;
+    padding-left: 2%;
+    flex-wrap: wrap;
+}
